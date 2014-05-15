@@ -1,0 +1,49 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="fetchbuckets" eventname="Fetch the buckets!" type="filler" tag="normal"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>"Fetch the buckets!", goes up the cry in the middle of the night. You stumble out of bed half on reflexes alone. You lurch to the window and can immediately see what is going on: one of the farm buildings is on fire! You can see flames licking at the windows and curling up from underneath the roofing. There is no time to lose. What do you do?</say>
+			<line target="2">"Organize a bucket chain!"</line>
+			<line target="3">"We can't fight this alone, send for help!"</line>
+									
+		</node>
+		
+		<node id="2">
+			<say>Realizing that time is of the essence, you dash outside with your undershirt flapping and start to organize the workers into a bucket chain. You yourself join in as well, because more hands means more water. As you work you realize that the burning building is one of the food larders. Water is coming up from the wells and going into the building as fast as you can bring it up, but it isn't enough: the building will burn down. What do you do?</say>
+			<line target="3" positive="6" positivechance="0.3">"Try to save as much food as possible!"</line>
+			<line target="4">"No amount of food is worth the risk to human lives. Let it burn."</line>
+		</node>
+		
+		<node id="3">
+			<say>With a sinking feeling you realize that the building is doomed and at this point it's only a question of how much food you can bring out to safety before it collapses. You order some farmhands into the building to drag out what they can.</say>
+			<line target="5">"Lords above have mercy on us..."</line>
+		</node>
+		
+		<node id="4">
+			<say>With a sinking feeling you realize that the building is gone -- and with it a significant portion of your food stockpile. This is disaster enough for one night, there is no need to risk human lives on top of it all to save some burnt morsels. You order the workers to get back from the building before it collapses. This quickly proves to be the right decision. The fire must have reached the oil barrels, because in the blink of an eye flames explode out the windows and door, bringing the burning roof down on what little remained. Had men been inside, it would have been the end of them all.</say>
+			<trigger type="removeresource" argument="food" amount="25"></trigger>
+		</node>
+		
+		<node id="5">
+			<say>Though the risk is high, the alternative isn't much better. If all this food is wasted, the winter might kill you all yet. The farmhands reluctantly make their way into the building as more water is brought up to slow down the flames. They have barely made it inside before you hear some yell something about the oil. The sentence is cut short by a violent explosion as flames shoot out through the windows and door. The burning roof collapses on the raging inferno, surely dooming anyone inside to a fiery death. A major setback has turned into a disaster.</say>
+			<trigger type="removeresource" argument="food" amount="25"></trigger>
+			<trigger type="removeresource" argument="farmer" amount="4"></trigger>
+		</node>
+		
+		<node id="6">
+			<say>Though the risk is high, the alternative isn't much better. If all this food is wasted, the winter might kill you all yet. The farmhands reluctantly make their way into the building as more water is brought up to slow down the flames. Miraculously the building holds while workers drag out most of the barrels and bags. Eventually the risk becomes too high and you order the men back just before the building gives out one last groan and collapses in an explosion of embers and burning wood. What might have been a complete disaster has instead become a mere setback, but it could also so easily have gone the other way...</say>
+			<trigger type="removeresource" argument="food" amount="5"></trigger>
+		</node>
+	</event>
+		
+</winterevent> 

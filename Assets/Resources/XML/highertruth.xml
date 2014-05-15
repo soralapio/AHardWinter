@@ -1,0 +1,59 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="truthseekers" eventname="Seeking a Higher Truth" type="filler" tag="war"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>"Ho there, farmer!" comes the cry from the road. You wipe your brow, shove your shovel into the ground and walk over to the fence. You see what can only be described as a pathetic caravan. Men, women, children and various pets are pushing and pulling rickety wagons and carts along the road. The speaker is an older man with a neat white beard who clearly fancies himself the leader of this ragtag group. He is dressed in patched clothing which was clearly of high quality and fashion once, years ago. Hand extended he walks straight for you. How do you react?</say>
+			<line target="2">"What can I do for you?"</line>
+			<line target="3">"On your way, beardy. We don't want the kinds of you here."</line>
+									
+		</node>
+		
+		<node id="2">
+			<say>The man introduces himself with a foreign sounding name you don't quite catch and before you can ask him to repeat, moves on to telling you that he is traveling south with "his flock" in search of a higher truth. Before you have a chance to put in a word edgewise, he has already launched into a lecture on the topic. Words wash over you in troves. What do you do?</say>
+			<line target="4">Listen politely</line>
+			<line target="5">"I am a busy man, can I get the short version?"</line>
+		</node>
+		
+		<node id="3">
+			<say>The man either does not hear what you say or simply chooses to ignore it. He introduces himself as the leader of a group of holy pilgrims in seach of a holy place. They are certain the world is coming to an end and know salvation can only be found in these holy ruins. You haven't heard of any holy ruins, but an abandoned quarry a few miles south of here sounds like it might be the place he is talking of. However, you have heard tales of bandits and worse hiding in the ruins and caves. What do you do?</say>
+			<line target="6">"No such place exists around here. Try elsewhere."</line>
+			<line target="7">"I know precisely the place you talk of."</line>
+			<line target="8">"I know of such a place, but it is too dangerous.</line>
+		</node>
+		
+		<node id="4">
+			<say>Your patience was never the strongest, and the man manages to wear through it in record time with his wall of words. Strange concepts, words and places surround you and you can't make head or tails of the man's diatribe. After a few minutes you can't hold your tongue any longer.</say>
+			<line target="5">"Now look here!"</line>
+		</node>
+		
+		<node id="5">
+			<say>It takes a few tries before the man notices your attempts to interrupt him. Clearly unused to this, he is taken a back but recovers quickly. He explains that they are pilgrims in search of a holy site. Prompted by what he claims as clear signs that the world has ended, they have given up their old lives and struck out for a higher calling. The man describes this supposed holy site and it does indeed sound familiar. You recall stories of some old ruins some miles south of your farm that could match the description. But you also recall that they may be dangerous to travelers. What do you do?</say>
+			<line target="6">"No such place exists around here. Try elsewhere."</line>
+			<line target="7">"I know precisely the place you talk of."</line>
+			<line target="8">"I know of such a place, but it is too dangerous.</line>
+		</node>
+
+		<node id="6">
+			<say>A look of disappointment briefly crosses the man's face, but is clearly replaced by his slightly glassy smile. "Not to worry", he says. "This is not the first time we have heard it nor will it be the last. It wouldn't be much of a holy quest if it were easy, would it?" He thanks you for your time and walks over to his flock. You cannot say what is said but their faces relay the message well enough: they are disappointed. Despite this the small caravan sets off for the south. You hope that any other travelers they meet will have as much sense as you did.</say>
+		</node>
+		
+		<node id="7">
+			<say>The man's face practically explodes in a wide smile. He explains that he knew it would be so! He had seen a holy vision of your farm and knew that this would be the place they had sought. You give the group instructions on how to get to this holy site and as they walk off, happily waving and smiling at you, you hope that the rumours of bandits -- and worse -- in the ruins were not accurate. If they were, may whatever higher power these poor people serve protect them.</say>
+		</node>
+		
+		<node id="8">
+			<say>"Danger? Why would we fear danger? We are on a mission from a higher power! It would not have sent us here to danger", the man exclaims to cheers from his flock. You consider your duty done and give the man instructions on how to get to his holy site, but urge him to leave the womenfolk and children behind while the men scout out the area and make sure it is safe. He assures you there is nothing to fear and the group sets off, happily waving and smiling at you. May their higher power protect these poor people.</say>
+		</node>
+		</event>
+		
+</winterevent> 

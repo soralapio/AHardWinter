@@ -1,0 +1,55 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="foresttracks" eventname="Strange Tracks" type="starter" tag="forest"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>You are working the fields when you spot a group of farmhands in the distance, returning from the nearby forests. The men are clearly excited and agitated. As they draw closer they spot you and hurriedly make their way towards you. They explain, at great volume, that they have something amazing to show to you. How do you react?</say>
+			<line target="2">"I always have time for amazing things. Show me."</line>
+			<line target="3">"No time for nonsense. I have work to do, as do you."</line>
+						
+		</node>
+		
+		<node id="2">
+			<say>The men lead you into the ancient forest near your farm. For as long as people have tilled these lands they have told stories of the forest and the secrets it hides. In all your years here you have never seen any for yourself, so you have regarded them as little more than stories. You are taken to a clearing some distance away from the forest edge, where the men -- experienced trackers all -- show you their find. You are shown a set of large animal tracks and then looked at expectantly. The men are clearly expecting you to be as taken aback by all of this as they are.</say>
+			<line target="4">"Animal tracks. This is what you wanted to show me? I have work to do!"</line>
+			<line target="5">"What is so special about these animal tracks?"</line>
+		</node>
+		
+		<node id="3">
+			<say>As long as people have tilled these lands, they have been telling faery tales of amazing things in the forest, but that's all they are. Stories. What is real is the land in front of you and the meager offerings it is providing for you this year. No time for nonsense when it could be better spent on keeping you all alive. You brush away the men's protests and tell them to attend to the stables if they want something to do. Grumbling and shaking their heads they walk away as you return to your duties. Let the loggers worry about the forest!</say>
+		</node>
+		
+		<node id="4">
+			<say>You leave the men to the clearing and march back to your farm, waving away their attempted explanations. You are no hunter and the animals, no matter how big they may be, haven't bothered you yet. Let them have their forest and you your farm.</say>
+		</node>
+		
+		<node id="5">
+			<say>The eldest tracker explains that he's hunted in these forests for decades and has never seen anything like this. The tracks look like those of a stag, but they are so large that the beast would have to be monstrously large. At the same time they are extremely shallow, which defies all logic. Surely a beast of this size would also have to be quite heavy? The men beg your leave to patrol the forests more often in hopes of catching a glimpse of the monster and possibly even bringing it down. They remind you that such a price kill would surely bring good fortune over your farm. What do you say?</say>
+			<line target="6">"Track the beast but do not kill it. If you find it, come get me."</line>
+			<line target="7">"Track the beast and bring it down. Imagine the glory!"</line>
+			<line target="8">"Your time is better spent on hunting things you can catch."</line>
+		</node>
+		
+		<node id="6">
+			<say>You give the hunters permission to track the mighty stag, but give strict instructions that the beast is not to be felled before you are fetched. You are not certain why you felt so strongly about this. Do you want to kill the beast yourself? Or do you simply want to look upon what must surely be the king of the forest and then pass judgment on the creature yourself? Only time will tell, but first your men will have to track the beast -- not an easy task considering these tracks were the first sighting ever.</say>
+		</node>
+		
+		<node id="7">
+			<say>You give your hunters permission track the beast and bring it down when they find it. Visions of what you imagine to be massive horns adorning your dining hall dance in your head, but you banish such flights of fancy. Men have lived on these hills for hundreds of years and this is the first anyone has seen of this mighty stag. Surely it is also the last?</say>
+		</node>
+		
+		<node id="8">
+			<say>You have always viewed yourself as a man of reason. You consider the fact that men have lived on these hills for hundreds of years. These scattered tracks are the first anyone has seen of this supposed mighty beast. The chances of ever running into more, let alone the beast itself, are so small as to be meaningless. You tell your men to focus on their duties and think of the rumbling bellies they are supposed to be hunting, instead of dreaming of childish glories. You brush dirt on the tracks with your foot and set off back towards the farm, where such work waits you.</say>			
+		</node>
+	</event>
+		
+</winterevent> 

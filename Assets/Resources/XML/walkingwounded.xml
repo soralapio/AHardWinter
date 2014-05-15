@@ -1,0 +1,64 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Walking Wounded</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="walkingwounded" eventname="Walking Wounded" type="continue" tag="war"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>"Look, in the distance!" someone cries and work on the farm comes to a halt. A column of men is making its way towards you on the road and you think you can make out the king's colours. A cheer goes up among the workers, but quickly dies down again as the men get closer and the truth is revealed. This is no victorious column on the way to a feast of triumph. These are walking wounded. Haggard, gaunt and bloody men limp and stumble on the road, sometimes alone, sometimes leaning on a comrade. The workers watch through teary eyes, their breaths held, as the ragged column slowly passes by. How do you react</say>
+			<line target="2">"Someone run to the house and fetch food. We must help these men!"</line>
+			<line target="3">"What little we have we can't spare."</line>
+						
+		</node>
+		
+		<node id="2">
+			<say>Your urgent command breaks whatever spell the workers were under and maids sprint towards the house to fetch food, water and bandages for the soldiers. As the men gratefully sit down to eat and drink, for the first time in days by the look of things, you have a chance to talk to some of them. What do you wish to know?</say>
+			<line target="4">"What in God's good graces happened to you?"</line>
+			<line target="5">"Do you have news of my farmhands?"</line>
+			<line target="6">"Can we offer any of you shelter and safety?"</line>
+		</node>
+		
+		<node id="3">
+			<say>You and your workers watch in silence as the pitiful group struggles along the road. You doubt whether some of the men actually have the strength to get to where they are going. But based on your time in the regiments you're not sure if this is such a bad thing. All that waits them is another trip back to the frontlines, and this time they may not be so lucky. As the last remnants of the group disappears over the hills eyes are wiped clean, throats are cleared and slowly the workers return to their duties.</say>
+		</node>
+		
+		<node id="4">
+			<say>"The enemy happened". The soldiers tell of a battle where the king's supposedly mighty warband lined up against an army three or four times their size. Their sergeants and lieutenants told them that they were easily the match of five foreign devils, but in the end it didn't matter much. The enemy cannons barked and it was as if a mailed fist had swept the regiments down. Entire ranks of men gone in the blink of an eye. What little survived the initial carnage was quickly routed off the battlefield by the enemy's cavalry and scattered to the four winds.</say>
+		<line target="6">"You have seen enough for any man and more. Stay here with us!"</line>
+		<line target="9">"May you find what little luck and happiness remains in this world."</line>
+		</node>
+		
+		<node id="5">
+			<say>Worried for your farmhands and their safety, you describe to the soldiers the men who signed up with the recruiter such a short time ago. Most of them aren't recognized, but one man says that a soldier matching one of their descriptions served in his unit. He was in the front rank on the day of the battle and took the full force of the enemy's artillery. The soldier reckons you won't be seeing your farmhands again.</say>
+		<line target="6">"All the more reason for you to stay and help us on the farm."</line>
+		<line target="9">"May you find what little luck and happiness remains in this world."</line>
+		</node>
+		
+		<node id="6">
+			<say>You tell the soldiers that if any of them want, they are free to stay on your land in return for their labour. You say you can't offer them much more than a roof over their heads and warm food in their bellies, and even that isn't certain for much longer. Some of them seem eager to take you up on your offer, but a man wearing a corporal's stripes stops them. He explains that it would be an act of desertion. The survivors have standing orders to report to a nearby encampment to regroup. He says that he will not turn anyone in, but others may come looking later. How do you react?</say>
+		<line target="7">"Then we will face that together. You are free to stay."</line>
+		<line target="8">"We can't risk that. There are women and children here. I am sorry."</line>
+		</node>
+		
+		<node id="7">
+			<say>Grateful for you help, some of the men agree to stay while others decide to push on for whatever fate has in store for them. As the remains of the ragged column disappears over the hill, the women fetch new clothing for the soldiers and others burn their uniforms and hide what little armour they had with them. While hugs and names are exchanged and backs are slapped, you can't help but we a little worried about the future. Will men come looking for your new farmhands? Or will these men who have walked through hell bring a piece of it to your farm?</say>
+			<trigger type="addresource" argument="farmer" amount="3"></trigger>
+		</node>
+	
+		<node id="8">
+			<say>"You have nothing to be sorry for. You offered your help and that is more than most have done", the corporal says. The men finish their meager suppers and arrange themselves into something that resembles a formation. Hands are shaken and prayers offered as people invoke whatever higher powers they believe in to shelter these men from more harm. As the ragged column disappears over the hills you wonder if such a thing is within the domain of even the highest of powers, or if the stupidity of man and his desire for war aren't even more powerful and enduring."</say>
+		</node> 
+		
+		<node id="9">
+			<say>The men finish their meager suppers and arrange themselves into something that resembles a formation. Hands are shaken and prayers offered as people invoke whatever higher powers they believe in to shelter these men from more harm. As the ragged column disappears over the hills you wonder if such a thing is within the domain of even the highest of powers, or if the stupidity of man and his desire for war aren't even more powerful and enduring."</say>
+		</node>
+	</event>
+		
+</winterevent> 

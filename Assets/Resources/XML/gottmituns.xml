@@ -1,0 +1,40 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Gott Mit Uns</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="gottmituns" eventname="Gott Mit Uns" type="starter" tag="war"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>"Sons of Northland, stand proud! Daughters of the North! Cry no more! Your freedom is at hand! Your king rides south to end the war and needs your help! Join up and serve your king and country!" So says the man on the big white charger, riding down to your farm one cold morning. He is recruiting for the regiments. The king needs able bodies to fight his war in the south and they are in such short supply after years of fighting, that the recruiting parties are coming to even these parts of the kingdom. You are far too old to care about such matters or for the recruiters to care about you, but some of your young farmhands seem interested. The admiring looks the recruiter is drawing from the womenfolk might have something to do with this. They ask for your leave. Knowing that if you let them go, they may never return, what do you say? </say>
+			<line target="2">"Every man has a duty to serve his country and his king! Go and serve!"</line>
+			<line target="3">"We need you on the farm, please do not go."</line>
+			<line target="4">"If you go, you will not return whole, if at all. Think it over."</line>
+			
+		</node>
+		
+		<node id="2">
+			<say>You encourage the farmhands to join with stories of your own days in the regiments and some of them take the king's shilling. They seem eager but anxious, which you fully understand. This may be the last time any of them see their home, but at the same time it may also be the only time any of them will have a chance to see the world. Teary-eyed goodbyes are said as the men march off with the recruiter. You watch as they disappear over the horizon and wonder whether you will see any of the men again. "Gott mit uns", as they say in the regiments. May God see them back home safely again.</say>
+			<trigger type="removeresource" argument="farmer" amount="5"></trigger>
+			<trigger type="addevent" argument="walkingwounded" amount="0"></trigger>
+		</node>
+		
+		<node id="3">
+			<say>You tell the farmhands that the winter will be hard enough even with all available men and women working as hard as they can. You explain that even now survival isn't guaranteed and how many people depend on them for their work. "There are other ways to help the war effort than the spear", you tell them. "The work you do here is just as valuable, if not moreso!" They seem disappointed, but understanding. You agree that if the recruiter comes back in the spring, you will reconsider your position. Knowing how long the war has already dragged on, you are fairly certain this isn't the last time you've seen the likes of him around. The situation is resolved, however, and the farmhands stay.</say>
+		</node>
+		
+		<node id="4">
+			<say>You tell the farmhands of your days in the regiments and how you saw friends and comrades torn apart by steel and iron. You tell of the mighty cannons which can kill a dozen strong men in the blink of an eye and remind them that the war has already dragged on for years. If they go, all that awaits them is misery, pain and death. Theirs or someone else's. Some of them are swayed by your words and agree to stay, but others, possibly hoping to impress the women smitten with the recruiter, decide to ignore you and join up regardless. With a heavy heart you watch them disappear over the horizon with the recruiter and wonder whether you'll ever see any of them again.</say>
+			<trigger type="removeresource" argument="farmer" amount="2"></trigger>
+			<trigger type="addevent" argument="walkingwounded" amount="0"></trigger>
+		</node>
+				
+	</event>
+		
+</winterevent> 

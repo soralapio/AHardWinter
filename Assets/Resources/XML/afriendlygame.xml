@@ -1,0 +1,35 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="friendlygame" eventname="A Friendly Game" type="filler" tag="farm"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>It is the last day of the week and as the custom goes, everyone has the day off save for the most crucial tasks. It is typically a day for sitting on the grass and relaxing after a hard week. Today, however, some of the farmhands have organized a friendly game of kickabout. The men dash back and forth across a spare field chasing an inflated pig's bladder with the aim of getting the ball into the opposing team's goal. Two farmhands have been having heat clashes all afternoon long. Do you intervene?</say>
+			<line target="2">"Men, this is a friendly game! Can you not settle your differences?"</line>
+			<line target="3" positive="4" positivechance="0.5">"It does a man good to let out steam occasionally. Let them settle it!"</line>
+									
+		</node>
+		
+		<node id="2">
+			<say>You intervene in and call the two belligerents to the side. The problems apparently stem from a rough challenge early on in the game, which one man felt was intentional. The other man, realizing what has transpired, apologizes profusely and soon the two are slapping each other on the back and shaking hands. The game continues in good spirit and a good time is had by all.</say>
+		</node>
+		
+		<node id="3">
+			<say>You choose not to get involved and elect to let the two men work things out between the two of them. Sadly this does not happen. Tempers keep rising and soon flare in a rough kick from behind, which produces an audible snap from the receiving player's leg. The man collapses on the field in agony as players and spectators alike rush to the scene. The pleasant outing has turned into mayhem and at least one of the players involved will be incapable of working for quite some time.</say>
+			<trigger type = "removeresource" argument = "farmer" amount = "1"></trigger>
+		</node>
+		
+		<node id="4">
+			<say>You choose not to get involved and elect to let the two men work things out between the two of them. Miraculously this does, in fact, happen. A rough challenge nearly brings the pair to blows, but somehow cooler heads prevail and instead the two talk out their differences. Hands are shaken, backs are slapped and the game continues in better spirit.</say>
+		</node>
+	</event>
+		
+</winterevent> 

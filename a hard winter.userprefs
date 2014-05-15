@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Code\FarmGame.cs">
+    <Files>
+      <File FileName="Assets\Code\FarmGame.cs" Line="224" Column="4" />
+      <File FileName="Assets\Code\Backend\EventHandler.cs" Line="78" Column="32" />
+      <File FileName="Assets\Code\Backend\TriggerProcessor.cs" Line="77" Column="40" />
+      <File FileName="Assets\Code\Backend\GameLoader.cs" Line="19" Column="31" />
+      <File FileName="Assets\Code\Backend\XMLParser.cs" Line="40" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

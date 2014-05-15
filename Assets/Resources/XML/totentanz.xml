@@ -1,0 +1,68 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="totentanz" eventname="Totentanz" type="filler" tag="supernatural"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>The night is late and the moon is full as you wearily walk across the yard towards your outhouse, cursing the suspicious meat you ate earlier. You are roused from your thoughts by a ragged cry for help. Turning around you see a man making his way towards you in a frantic, lurching run. His face looks as pale as the moon and you can smell alcohol on his breath -- and various other, less pleasant odours on his clothing -- as he grabs you by the lapels and begs for your help. What do you do?</say>
+			<line target="2">"What is it, my good man? I have urgent business!"</line>
+			<line target="3">"No time for you, drunkard!"</line>
+									
+		</node>
+		
+		<node id="2">
+			<say>The terrified man explains that he was walking across the moors to get home from the local inn when something singular and horrific happened to him. He claims that strange people in the woods lured him to their fire with promises of drink and other pleasures. A band of the dead was playing a keening melody and the man claims that he lost control of his body. He continues that it was as if he was looking at his own body from above as it danced in a circle of fire. He was certain that he was about to be dragged to hell when something caused the spell to break for a moment. Seizing his opportunity he ran for the only light he could see, your farm. He begs you to hide him for the night.</say>
+			<line target="4">"On your way, rummy! The only thing you have to fear is the back of my hand!"</line>
+			<line target="5">"My barn is yours, go sleep it off, my man."</line>
+		</node>
+		
+		<node id="3">
+			<say>You scoff at the man and push him away. You warn him that he'll be feeling the back of your hand soon enough lest he move on and stop bothering people who need to work in a few short hours. With one last pleading look the man pushes past you and runs off into the distance, away from the forest. You sigh, then cursing the man who invented alcohol you quickly rush off to the outhouse to finish your urgent business. The rest of the night passes uneventfully.</say>
+		</node>
+		
+		<node id="4">
+			<say>You scoff at the man and push him away. You warn him that he'll be feeling the back of your hand soon enough lest he move on and stop bothering people who need to work in a few short hours. With one last pleading look the man pushes past you and runs off into the distance, away from the forest. You sigh, then cursing the man who invented alcohol you quickly rush off to the outhouse to finish your urgent business. Your interest is piqued, however. Do you want to take a look at the forest's edge?</say>
+			<line target="6">"I will take a look for myself just so I can tell the man he was seeing shadows.</line>
+			<line target="7">"Who knows what strangeness lies in the forest? Best leave it be!"</line>
+		</node>
+		
+		<node id="5">
+			<say>The man kisses you on the cheek and pumps your arm vigorously as blessings and thanks pour from his lips. You show him to the barn where he collapses on the hay, clearly exhausted and drunk out of his skull. You finish your urgent business in the outhouse and are on your way back to the house, when you find your interest piqued. Maybe you should take a look at the forest's edge and see for yourself?</say>
+			<line target="6">"I will take a look for myself just so I can tell the man he was seeing shadows.</line>
+			<line target="7">"Who knows what strangeness lies in the forest? Best leave it be!"</line>
+		</node>
+		
+		<node id="6">
+			<say>Grabbing a small lantern you make your way across the moor. The night mist is starting to rise and visibility is low. You stumble and curse as your feet manage to repeatedly find potholes and gopher nests, vowing to bring the farmhands out here to fill them one of these days. After an exhausting and wet trip huge forms loom out of the dark mist and you suddenly find yourself at the forest's edge. It's now or never: turn back or press on?</say>
+			<line target="8">"A few trees aren't enough to scare me, press on!"</line>
+			<line target="9">"It is getting awfully late and wet... maybe I'd best turn back."</line>
+		</node>
+		
+		<node id="7">
+			<say>You tell yourself that although the man was obviously drunk out of his mind and jumping at shadows, the forest is a dangerous place at night. The moor itself hides no end of ankle-twisting pot holes which could put you out of commission for days, and you can ill afford that. Thus you manage to convince yourself that it's not cowardice that is turning you back from the forest. This private lie allows you to walk back to your warm bed and go back to sleep. For the rest of the night your dreams are haunted by visions of gaunt bodies twisting and turning in cold blue firelight.</say>
+		</node>
+		
+		<node id="8">
+			<say>You creep on into the brush surrounding the forest proper. All is still in the night. You can't even hear owls or other beasts of the woods as you normally would. The mist has reduced visibility to almost nothing and so you stumble over roots and trip over stumps. You are about to turn back when at the very edge of your hearing you think can pick out something.</say>
+		<line target="10">"Oh Gods..."</line>
+		</node>
+		
+		
+		<node id="9">
+			<say>You tell yourself that although the man was obviously drunk out of his mind and jumping at shadows, the forest is a dangerous place at night. The moor itself nearly twisted your ankle, which could put you out of commission for days, and you can ill afford that. Thus you manage to convince yourself that it's not cowardice that is turning you back. This private lie allows you to walk back to your warm bed and go back to sleep. For the rest of the night your dreams are haunted by visions of gaunt bodies twisting and turning in cold blue firelight.</say>
+		</node>
+		
+		<node id="10">
+			<say>Straining your ears, afraid of what you might hear, you can almost pick out what sounds like a keening melody being played on reed pipes, although you can't quite make it out. And now that you've stopped, you could swear that deeper in the mist something is glowing blue and casting shadows in the night. Twisting, turning, obscene shadows! A branch snaps somewhere close to your left and breaks you out of your horrified state. Dropping your lantern you run, trip and crawl back across the moor in record time, sure that the legions of hell are right on your heels. Reaching the house you bar yourself in your bedroom to wait out the night and desperately try to convince yourself it was only your mind playing tricks.</say>
+		</node>
+	</event>
+		
+</winterevent> 

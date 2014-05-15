@@ -1,0 +1,46 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="nightstalker" eventname="Night Stalker" type="starter" tag="normal"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>You are roused from your sleep by a farmhand who explains that there is something outside you should see. You walk outside to see three farmhands restraining a large man. Tempers are clearly running high, as evidenced by bruised knuckles and cheeks. The farmhand explains that the large man was caught sneaking on your lands and when questioned attacked the farmhands. The man begs for a chance to explain himself. The workers want to turn him over to the constabulary. How do you feel?</say>
+			<line target="2">"Hear him out before we send him off to rot."</line>
+			<line target="3">"Stalking on my lands, attacking my farmhands, I've seen enough."</line>
+						
+		</node>
+		
+		<node id="2">
+			<say>Despite protests from your farmhands you order the man to be released from his bonds and offer him a chance to explain his actions. Rubbing his wrists the man says he was a worker at a nearby sawmill, falsely accused of killing another man in a drunken row. He claims he was sleeping soundly in his bunk at the time, but false testimony and previous arguments between him and the dead man led to a quick conviction. He broke free from his makeshift cell and hoped to hide on your farm for a night before pushing on for the south. He begs that you do not condemn him to an unjust death. How do you react?</say>
+			<line target="3">"That sounds like an unlikely tale. Send for the constabulary and be done with it.</line>
+			<line target="4">"You can stay for the night, but in the morning you'd best be off.</line>
+			<line target="5">"A strong lad like yourself would be useful on the farm..."</line>
+		</node>
+		
+		<node id="3">
+			<say>You've seen and heard enough. You don't need or want violence on your farm, so the man is restrained and held in a storage room while the constabulary arrives to claim him. As the man is loaded in chains into the hurry up wagon he is screaming about his innocence. The sergeant of the guard says there was a bounty on the man's head and gives you a small purse of coin. Touching his forelock he turns away and the wagon disappears over the hills.</say>
+			<trigger type="addresource" argument="gold" amount="10"></trigger>
+			
+		</node>
+		
+		<node id="4">
+			<say>You order the man to be released and tell him that he's free to stay the night provided he causes no trouble and is off in the morning. A look of relief washes over his face. Pumping your hand vigorously the man thanks you profusely for saving his life. Your farmhands grumble but agree to honor your word. Sure enough, in the morning the man is gone and with him a couple of morsels of food from the larders. You wonder whether you saved an innocent or ensured that an innocent's death goes unpunished.</say>
+			<trigger type="removeresource" argument="food" amount="1"></trigger>
+		</node>
+		
+		<node id="5">
+			<say>You explain that the farm badly needs more workers and that a strong man like him would be a good help around the place. The man considers your offer and says that he might be interested in staying. You make him swear on the lord's name that he is in fact innocent and instruct the farmhands to find him a place to sleep and store his things. They grumble but go with what you order. The foreman stays behind and gives you his opinion, saying it's a bad idea to let a wanted man stay. Even if he turns out to be innocent, others may come looking for him and there is a high price to pay for harboring fugitives.</say>
+			<trigger type="addresource" argument="farmer" amount="1"></trigger>
+		</node>
+		
+	</event>
+		
+</winterevent> 

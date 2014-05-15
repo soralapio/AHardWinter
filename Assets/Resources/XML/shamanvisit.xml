@@ -1,0 +1,48 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="shamanvisit" eventname="A Strange Visitor" type="starter" tag="normal"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>The storm has been raging for days. Few step outside if they can help it, for to do so means getting soaked to the bone in seconds. You are surprised to hear a knock at your door late at night. Who could possibly be outside in this weather? At this hour? What do you do?</say>
+			<line target="2">"Whatever is out there can stay out. Do not open the door!"</line>
+			<line target="3">"When a man is afraid of his door, all is lost. Open the door!"</line>
+			<line target="4">"Maybe I imagined it? Wait a while to see if there's another knock."</line>
+			
+		</node>
+		
+		<node id="2">
+			<say>It is no weather for man or beast, and that doesn't leave much you would want at your threshold. You sit and stare intently at the door while you hear someone -- or something -- moving outside. There's another, heavier knock at the door and you hear a voice saying something you can't quite make out. Eventually the noise ceases and all you can hear is the howling wind. You wonder if you avoided doom or a boon.</say>
+		</node>
+		
+		<node id="3">
+			<say>You open the door to discover a strange visitor. A man, clad in furs and branches, is standing in the darkness. He is trying not to show it, but he is clearly freezing and very tired. He introduces himself as a shaman. You know they are wise men who live in the forests communing with spirits and offering remedies to more primitive folk. He explains that he was waylaid on his travels in unfamiliar territory. He asks you for a warm place to spend the night. In return he says he will sing a song that will bring good fortune on your farm for the season. How do you respond?</say>
+			<line target="6">"My door is always open to those in need! Stay the night, friend!"</line>
+			<line target="7">"I have room, but no need for song. Give me gold and you can stay!"</line>
+			<line target="8">"I have neither room nor need for songs. Be on your way, traveler."</line>
+		</node>
+		
+		<node id="4">
+			<say>Did you really hear that or is the storm playing tricks on you? You wait to hear if the knock is repeated. Moments later it is, this time more heavily and accompanied by words you can't quite make out. You suddenly feel ill at ease and decide not to open the door. Who knows what could be out there? Eventually the knocking stops and all you can hear is the howling of the wind. Or is it just the wind? A chill runs up your spine.</say>
+		</node>
+		
+		<node id="6">
+		<say>The man gives you a warm smile and thanks you with a rhyme. He spends the night in your stable and in the morning, the storm now gone, makes good on his end of the bargain. He draws elaborate symbols in the muddy ground and sings a strange but beautiful song in a language you can't understand. Having fulfilled the bargain the man shakes your hand and promises that if you're ever in his forest, you will come to no harm. As the man disappears across the fields you wonder if his help will indeed bring you good fortune. Only time will tell, you suppose.</say></node>
+		
+		<node id="7">
+		<say>The man smiles grimly. He explains that he has no gold, because his kind have never needed it. They have helped others and have in turn been helped when they needed it. He curses you for your greed and warns you: if you or any of your household wander into his forest, you will find trouble. The forest is no friend to the unfriendly! As the man disappears into the night you can't help but feel a chill on your spine.</say></node>
+		
+		<node id="8">
+		<say>The man shakes his head sadly. He says he is disappointed you can't help a traveler in need, but says he understands that you have to take care of yours before others. With one last look at the warm glow inside your house he turns around and walks off into the darkness and biting cold. You wonder if you did the right thing in turning away an odd but harmless enough fellow but what is done is done.</say></node>
+				
+	</event>
+		
+</winterevent> 

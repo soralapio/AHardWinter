@@ -1,0 +1,37 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="costlyhunt" eventname="A Costly Hunt" type="filler" tag="forest"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>It is late afternoon as you are finishing your duties when shouts and commotion draw your attention to the forest's edge. Workers are running towards a group of men who seem to be dragging something -- or someone -- out of the forest. You run towards them as well and see that the hunters are indeed half dragging and half carrying one of their own towards the farm. The man's face is ashen, which is no surprise. His shirt has been dyed blood red by the massive gash in his stomach.</say>
+			<line target="2">"What has happened here!?"</line>
+									
+		</node>
+		
+		<node id="2">
+			<say>One of the hunters explains that the men were tracking a large boar in the forest and had the beast cornered. They thought it was already on its last leg, when it suddenly charged. One of the men tripped and couldn't get out of the way before the boar gored him and ran into the bushes with several spears sticking out of it. It is obvious that the man has lost a great deal of blood and doesn't have much time left. What do you do?</say>
+			<line target="3">"Fetch linens and hot water, we can save him yet!"</line>
+			<line target="4">"This man is already gone. Make his last moments comfortable."</line>
+		</node>
+		
+		<node id="3">
+			<say>At your command runners are sent to the farm houses for fresh linens and hot water in hopes that you might save the man's life yet. As you tear away his shirt the hopes are quickly dismissed, though. The man's stomach is a ruined mess and you can clearly see into the blood red innards within. It is amazing that he has survived even this long. The runners haven't even returned when the man draws his last, rattling breath and dies without ever regaining consciousness. It is a stark reminder that though man rules these lands, occasionally nature has its day as well.</say>
+			<trigger type="removeresource" argument="farmer" amount="1"></trigger>
+		</node>
+		
+		<node id="4">
+			<say>Even a quick look at the massive wound in the man's stomach and his ashen face says all you need to know: he is already dead though his body may not yet know it. You instruct the farm hands to make him comfortable and to give him a swig of apple brandy to dull the pain. Your instincts turn out to be true, because mere minutes later the man suddenly opens his eyes, draws one last rattling breath and dies. Though hunting the forests is necessary to sustain the farm, it is not without its dangers.</say>
+			<trigger type="removeresource" argument="farmer" amount="1"></trigger>
+		</node>
+	</event>
+		
+</winterevent> 

@@ -1,0 +1,33 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="smallmoments" eventname="The Small Moments" type="filler" tag="normal"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>It is late afternoon. The sun is starting to set beyond the hills and people are finishing up their duties for the day. As the animals are being led back to the stables the setting sun caresses the fields and makes them light up as if they were on fire. You pause in your work for a moment to admire the beauty of nature.</say>
+			<line target="2">"Life is hard, but occasionally good."</line>
+			<line target="3">"Soon enough it will be night, no time for this!"</line>
+						
+		</node>
+		
+		<node id="2">
+			<say>You sigh deeply as you take a moment to appreciate what you have. Life is hard, but it could be harder -- and is for many. With the help of your friends, family and workers you might see your way through this hard time yet.</say>
+			<trigger type="sendmessage" argument="Positiivinen lopputulos" amount="0"></trigger>
+		</node>
+		
+		<node id="3">
+			<say>A couple of cows and the setting sun don't change the facts: things are already hard and will only get harder. You spit and wipe your brow as you stare at the setting sun. Grabbing your pitchfork you turn back to your work. Lord knows there's enough of it left still!</say>
+			<trigger type="sendmessage" argument ="Negatiivinen lopputulos" amount="0"></trigger>
+		</node>
+							
+	</event>
+		
+</winterevent> 

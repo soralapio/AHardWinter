@@ -1,0 +1,23 @@
+<winterevent>
+	
+	<description>Overhearing camping soldiers</description>
+	<root>1</root>
+	
+	<eventdata>
+		<data id="soldierssong" eventname="A Soldier's Song" type="filler" tag="war"></data>
+	</eventdata>
+		
+	
+	<event>
+		
+		<node id="1">
+			<say>You are roused from your slumber late one night by the sound of men drifting over from the nearby field. Rubbing the sleep from your eyes you peer out of your window and see that a camp of soldiers have struck up a temporary camp nearby. They must be on their way to the front, one of many such small groups assembling for the king's great war. They don't seem to be bothering anyone, so you decide not to force the issue and instead turn back in.</say>
+			<line target="2">"Ah, sleep..."</line>
+		</node>
+		
+		<node id="2">
+			<say>You are on the edge of dozing off when the sound of singing washes over you. The soldiers are singing an old soldiers' song as they tend to their equipment and cook their supper. It's a simple and sad song, remembering loved ones they have left behind and fallen comrades who are now gone but not forgotten. It is also hopeful, however, and voices the belief that one day they will be united again, in this life or the next. You drift to sleep silently singing along and remembering your own days in the regiments.</say>
+		</node>
+	</event>
+	
+</winterevent>

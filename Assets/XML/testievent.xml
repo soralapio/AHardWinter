@@ -1,0 +1,40 @@
+<winterevent>
+ 
+ <!-- This is a standard XML comment element -->
+ 
+ <description>Generic event for A Hard Winter</description>
+ 
+ <root>1</root>
+ 
+  <eventdata>
+    <data id="testievent" eventname="Event testaukseen"></data>
+  </eventdata>
+ 
+  <event>
+		<node id="1">
+			<say>Tämä on testievent eventien testailuun. Tähän tulee kuvausta tapahtumista ja kaikenlaista muuta mukavaa. Mitä kaikkea voikaan tapahtua kuin oikein kikkaillaan?</say>
+			<line target="2">Ei oikein mitään.</line>
+			<line target="3">Vaikka mitä.</line>
+			<line target="4">Emmää vaan tiedä.</line>
+		</node>
+		
+		<node id="2">
+			<say>Pelaajan mielestä nyt ei tapahdu oikein mitään. Ei tapahdu sitte.</say>
+		</node>
+		
+		<node id="3">
+			<say>Nyt sitte taas olevinaan tapahtuu kaikenlaista. Lampaita lentelee ja kamaa katoaa ladosta. Hoooo!</say>
+			<line target="5">Jep jep</line>
+		</node>
+		
+		<node id="4">
+			<say>Emmääkään.</say>
+		</node>
+		
+		<node id="5">
+			<say>Jep jep jep.</say>
+		</node>
+		
+	</event>
+		
+</winterevent> 
